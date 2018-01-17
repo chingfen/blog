@@ -1,4 +1,4 @@
-!/usr/bin/env python
+#!/usr/bin/env python
 import os
 import sys
 
@@ -12,7 +12,7 @@ if __name__ == "__main__":
         # exceptions on Python 2.
         try:
             import django
-        except ImportE10rror:
+        except ImportError:
             raise ImportError(
                 "Couldn't import Django. Are you sure it's installed and "
                 "available on your PYTHONPATH environment variable? Did you "
